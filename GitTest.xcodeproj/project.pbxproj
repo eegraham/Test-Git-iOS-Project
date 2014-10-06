@@ -14,6 +14,7 @@
 		339F61D419E3352200E5BDD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339F61D319E3352200E5BDD0 /* Images.xcassets */; };
 		339F61D719E3352200E5BDD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339F61D519E3352200E5BDD0 /* LaunchScreen.xib */; };
 		339F61E319E3352200E5BDD0 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339F61E219E3352200E5BDD0 /* GitTestTests.m */; };
+		339F61EE19E3384600E5BDD0 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 339F61ED19E3384600E5BDD0 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		339F61DC19E3352200E5BDD0 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339F61E119E3352200E5BDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		339F61E219E3352200E5BDD0 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		339F61EC19E3384600E5BDD0 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		339F61ED19E3384600E5BDD0 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		339F61BA19E3352200E5BDD0 = {
 			isa = PBXGroup;
 			children = (
+				339F61EC19E3384600E5BDD0 /* Test.h */,
+				339F61ED19E3384600E5BDD0 /* Test.m */,
 				339F61C519E3352200E5BDD0 /* GitTest */,
 				339F61DF19E3352200E5BDD0 /* GitTestTests */,
 				339F61C419E3352200E5BDD0 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				339F61CF19E3352200E5BDD0 /* ViewController.m in Sources */,
+				339F61EE19E3384600E5BDD0 /* Test.m in Sources */,
 				339F61CC19E3352200E5BDD0 /* AppDelegate.m in Sources */,
 				339F61C919E3352200E5BDD0 /* main.m in Sources */,
 			);
